@@ -1,0 +1,185 @@
+
+/*--Imported google fonts to the project----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*----- Header tag --------------------------------------------------------------------------------------*/
+header {
+    margin: 0;
+}
+
+/*----- Heading class ------------------------------------------------------------------------------------*/
+.heading {
+    margin-left: 50px;
+}
+
+/*---- My Photo -----------------------------------------------------------------------------------*/
+#PatB_img{
+    max-width: 100%;
+    height: auto;
+    margin: none;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+/*---- Logo class/ image -----------------------------------------------------------------------------------*/
+.logo {
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*------- Styled the name -------------------------------------------------------------------------------------------------------------------*/
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100px;
+    font-size: 46px;
+    margin-top:50px;
+    color:black;
+}
+
+/*------- Styled the title -------------------------------------------------------------------------------------------------------------------*/
+
+.title {
+    font-family: "Literata", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color:black;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+/*---Menu item styling--------------------------------------------------------------------------------------------------------------------------*/
+.bg-color-name-title {
+    background-color: goldenrod;
+}
+
+.ui-menu-color-home {
+    background-color: green;
+    text-align: center;
+    
+}
+
+.ui-menu-color-about {
+    background-color: greenyellow;
+    text-align: center;
+    
+}
+
+.ui-menu-color-contact {
+    background-color: orangered;
+    text-align: center;
+} 
+
+.ui-menu-color-cv {
+    background-color: palevioletred;
+    text-align: center;
+}
+
+.menucontainer {
+    font-size: 0;
+    
+
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+}
+
+#nav li {
+    font-size: 15px;
+    padding: 30px;
+    margin: 0px;
+    
+}
+
+#navNameColor{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Section--------------------------------------------------------------------------------------------------------------------------*/
+section{
+    margin: 10px;
+    padding: 5px;
+    text-justify: 20px;
+    
+}
+
+.Contents{
+background-color: green;
+}
+
+#aboutBackground{
+    background-color: greenyellow ;
+}
+
+#CV{ 
+    text-align: center;
+    padding: 50px;
+    background-color: palevioletred ;
+    
+    
+}
+
+/*Skills section--------------------------------------------------------------------------------------------------------------------------*/
+
+#SkillsHeading{
+    background-color: goldenrod;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+
+#Skills{
+    background-color: greenyellow;
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+
+.SkillsImage{
+    
+    width: 120px;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 20px;
+}
+/*Contact page details--------------------------------------------------------------------------------------------------------------------------*/
+.contactDetails{
+    border: 20px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#Details{
+    padding: 10px ;
+    margin: 10px;
+    background-color: orangered;
+    text-align: center;
+}
+/*CV page--------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Footer--------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
